@@ -8,8 +8,8 @@
 
 #define POLY 0x7DF2
 
-uint16_t crcExtractData(uint32_t in) {
-	return (in >> 16);
+uint16_t crcExtractData(uint32_t inp) {
+	return (inp >> 16);
 }
 
 bool crcVerifyData(uint32_t data) {
